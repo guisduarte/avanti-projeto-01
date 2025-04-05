@@ -1,16 +1,532 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Nunito Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+  <!-- Nunito -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <title>Avanti</title>
 
 </head>
+
 <body>
- 
+  <header class="cabecalho">
+    <div class="aviso-desconto">
+      <p>
+        Ganhe
+        <span> R$10,00 </span>
+        de desconto no seu primeiro pedido. Utilize o cupom
+        <span class="cupom">DESCONTO10</span>
+      </p>
+    </div>
+    <div class="container__informacoes">
+      <img src="Imagens/logo.png" alt="logo Avanti" class="logo">
+
+      <div class="container-busca">
+        <input type="search" placeholder="Digite aqui o que você procura">
+        <img src="./Imagens/lupa.png" alt="Ícone de lupa" class="icone-busca">
+      </div>
+
+      <div class="container__perfil-carrinho">
+        <div class="perfil">
+          <img src="./Imagens/icone-perfil.png" alt="Ícone de perfil" width="20.57px" height="24px">
+          <p class="perfil__texto">
+            Olá, <br>
+            <span>
+              Nome cliente!
+            </span>
+          </p>
+        </div>
+
+        <div class="carrinho">
+          <img src="./Imagens/icone-carrinho.png" alt="Ícone do Carrinho">
+        </div>
+      </div>
+    </div>
+
+    <nav class="container-menu">
+      <div class="menu">
+        <!-- Botão para exibir lista de departamentos -->
+        <button class="botao-menu">
+          <img src="./Imagens/btn-categorias.png" alt="imagem botão todas as categorias">
+          <p>Todas as Categorias</p>
+        </button>
+
+        <!-- Departamentos -->
+        <div class="container__departamentos">
+          <a href="#">Departamentos</a>
+          <a href="#">Departamentos</a>
+          <a href="#">Departamentos</a>
+          <a href="#">Departamentos</a>
+          <a href="#">Departamentos</a>
+          <a href="#">Departamentos</a>
+          <a href="#">Departamentos</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="container__departamentos-categorias">
+    <!-- Lista de Departamentos -->
+    <div class="container__lista-departamentos">
+      <ul>
+        <li class="lista-departamentos" data-lista="lista-1">
+          <span>Departamento 01</span>
+          <img src="/Imagens/seta.png" alt="Imagem de seta">
+        </li>
+        <li class="lista-departamentos" data-lista="lista-2">
+          <span>Departamento 02</span>
+          <img src="/Imagens/seta.png" alt="Imagem de seta">
+        </li>
+        <li class="lista-departamentos" data-lista="lista-3">
+          <span>Departamento 03</span>
+          <img src="/Imagens/seta.png" alt="Imagem de seta">
+        </li>
+        <li class="lista-departamentos" data-lista="lista-4">
+          <span>Departamento 04</span>
+          <img src="/Imagens/seta.png" alt="Imagem de seta">
+        </li>
+        <li class="lista-departamentos" data-lista="lista-5">
+          <span>Departamento 05</span>
+          <img src="/Imagens/seta.png" alt="Imagem de seta">
+        </li>
+        <li class="lista-departamentos" data-lista="lista-6">
+          <span>Departamento 06</span>
+          <img src="/Imagens/seta.png" alt="Imagem de seta">
+        </li>
+        <li class="lista-departamentos" data-lista="lista-7">
+          <span>Departamento 07</span>
+          <img src="/Imagens/seta.png" alt="Imagem de seta">
+        </li>
+        <li class="lista-departamentos" data-lista="lista-8">
+          <span>Departamento 08</span>
+          <img src="/Imagens/seta.png" alt="Imagem de seta">
+        </li>
+        <li class="lista-departamentos" data-lista="lista-9">
+          <span>Departamento 09</span>
+          <img src="/Imagens/seta.png" alt="Imagem de seta">
+        </li>
+        <li class="lista-departamentos" data-lista="lista-10">
+          <span>Departamento 10</span>
+          <img src="/Imagens/seta.png" alt="Imagem de seta">
+        </li>
+      </ul>
+    </div>
+    <!-- Lista de Categorias -->
+    <div class="container__lista-categorias lista-1">
+      <!-- Departamento 1 - Categoria 1 -->
+      <h2>Departamento 1</h2>
+      <div class="colunas-categorias">
+        <ul class="lista-categorias">
+          <h3>Categoria 1</h3>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+        </ul>
+        <!-- Departamento 1 - Categoria 2 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 1</h3>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+        </ul>
+
+        <!-- Departamento 1 - Categoria  3 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 1</h3>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+          <li><a href="#">Categoria 1</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container__lista-categorias lista-2">
+      <!-- Departamento 2 - Categoria 1 -->
+      <h2>Departamento 2</h2>
+      <div class="colunas-categorias">
+        <ul class="lista-categorias">
+          <h3>Categoria 2</h3>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+        </ul>
+        <!-- Departamento 2 - Categoria 2 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 2</h3>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+        </ul>
+        <!-- Departamento 2 - Categoria 3 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 2</h3>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+          <li><a href="#">Categoria 2</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="container__lista-categorias lista-3">
+      <!-- Departamento 3 - Categoria 1 -->
+      <h2>Departamento 3</h2>
+      <div class="colunas-categorias">
+        <ul class="lista-categorias">
+          <h3>Categoria 3</h3>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          
+        </ul>
+        <!-- Departamento 3 - Categoria 2 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 3</h3>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+        </ul>
+        <!-- Departamento 3 - Categoria 3 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 3</h3>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+          <li><a href="#">Categoria 3</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container__lista-categorias lista-4">
+      <!-- Departamento 4 - Categoria 1 -->
+      <h2>Departamento 4</h2>
+      <div class="colunas-categorias">
+        <ul class="lista-categorias">
+          <h3>Categoria 4</h3>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          
+        </ul>
+        <!-- Departamento 4 - Categoria 2 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 4</h3>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+        </ul>
+        <!-- Departamento 4 - Categoria 3 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 4</h3>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+          <li><a href="#">Categoria 4</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container__lista-categorias lista-5">
+      <!-- Departamento 5 - Categoria 1 -->
+      <h2>Departamento 5</h2>
+      <div class="colunas-categorias">
+        <ul class="lista-categorias">
+          <h3>Categoria 5</h3>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>          
+        </ul>
+        <!-- Departamento 5 - Categoria 2 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 5</h3>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>  
+        </ul>
+        <!-- Departamento 5 - Categoria 3 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 5</h3>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>
+          <li><a href="#">Categoria 5</a></li>  
+        </ul>
+      </div>
+    </div>
+    <div class="container__lista-categorias lista-6">
+      <!-- Departamento 6 - Categoria 1 -->
+      <h2>Departamento 6</h2>
+      <div class="colunas-categorias">
+        <ul class="lista-categorias">
+          <h3>Categoria 6</h3>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+        </ul>
+        <!-- Departamento 6 - Categoria 2 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 6</h3>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+        </ul>
+        <!-- Departamento 6 - Categoria 3 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 6</h3>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+          <li><a href="#">Categoria 6</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container__lista-categorias lista-7">
+      <!-- Departamento 7 - Categoria 1 -->
+      <h2>Departamento 7</h2>
+      <div class="colunas-categorias">
+        <ul class="lista-categorias">
+          <h3>Categoria 7</h3>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+        </ul>
+        <!-- Departamento 7 - Categoria 2 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 7</h3>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+        </ul>
+        <!-- Departamento 7 - Categoria 3 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 7</h3>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+          <li><a href="#">Categoria 7</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container__lista-categorias lista-8">
+      <!-- Departamento 8 - Categoria 1 -->
+      <h2>Departamento 8</h2>
+      <div class="colunas-categorias">
+        <ul class="lista-categorias">
+          <h3>Categoria 8</h3>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+        </ul>
+        <!-- Departamento 8 - Categoria 2 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 8</h3>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+        </ul>
+        <!-- Departamento 8 - Categoria 3 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 8</h3>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+          <li><a href="#">Categoria 8</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container__lista-categorias lista-9">
+      <!-- Departamento 9 - Categoria 1 -->
+      <h2>Departamento 9</h2>
+      <div class="colunas-categorias">
+        <ul class="lista-categorias">
+          <h3>Categoria 9</h3>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>         
+        </ul>
+        <!-- Departamento 9 - Categoria 2 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 9</h3>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>   
+        </ul>
+        <!-- Departamento 9 - Categoria 3 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 9</h3>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>
+          <li><a href="#">Categoria 9</a></li>   
+        </ul>
+      </div>
+    </div>
+    <div class="container__lista-categorias lista-10">
+      <!-- Departamento 10 - Categoria 1 -->
+      <h2>Departamento 10</h2>
+      <div class="colunas-categorias">
+        <ul class="lista-categorias">
+          <h3>Categoria 10</h3>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>          
+        </ul>
+        <!-- Departamento 10 - Categoria 2 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 10</h3>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>   
+        </ul>
+        <!-- Departamento 10 - Categoria 3 -->
+        <ul class="lista-categorias">
+          <h3>Categoria 10</h3>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>
+          <li><a href="#">Categoria 10</a></li>   
+        </ul>
+      </div>
+    </div>
+    <div class="produtos-novos">
+      <img src="./Imagens/imagem-produto-categoria.png" alt="Imagem caneca Avanti">
+      <p>Confira os Produtos <br> Que <br> acabaram <br> De chegar</p>
+      <button>Ver todos</button>
+    </div>
+  </section>
+
+  <section class="banner">
+    <div class="banner__cadeira">
+      <img src="./Imagens/banner-cadeira.png" alt="Foto da cadeira no banner principal">
+    </div>
+
+    <div class="banner__texto">
+      <h1>super<span>sale</span></h1>
+      <p>Itens selecionados com até <br>
+        <span>50%Off</span>
+      </p>
+
+    </div>
+  </section>
 
   <script src="./JS/script.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,12 @@
+/* Fonte Geral */
+html {
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
+/* Cores */
+:root {
+  --azul-principal: #005CFF;
+  --branco: #FFFFFF;
+  --cinza-banner: #E7E7EA;
+  --cinza-texto: #656565;
+}

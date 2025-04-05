@@ -1,0 +1,43 @@
+.banner {
+  display: flex;
+  height: 100vh;
+  background-color: var(--cinza-banner);
+}
+
+.banner__cadeira {
+  margin-left: 315px;
+  width: 685px;
+  height: 510px;
+}
+
+.banner__texto {
+  margin-top: 143px;
+}
+
+.banner__texto h1 {
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.banner__texto h1 span {
+  font-weight: 300;
+}
+
+.banner__texto p {
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--azul-principal);
+  margin-top: 12px;
+}
+
+.banner__texto p span {
+  display: inline-block;
+  margin-top: 12px;
+  margin-left: 166.2px;
+  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: initial;
+}
+

@@ -1,2 +1,4 @@
-@import url(./styles/estilos-da-pagina.css);
 @import url(./styles/global.css);
+@import url(./styles/cabecalho.css);
+@import url(./styles/banner.css);
+@import url(./styles/categorias.css);
