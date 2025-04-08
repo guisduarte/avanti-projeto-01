@@ -4,14 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- Nunito Sans -->
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
   <!-- Nunito -->
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <!-- Swiper JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
+
   <title>Avanti</title>
 
 </head>
@@ -212,7 +216,7 @@
           <li><a href="#">Categoria 3</a></li>
           <li><a href="#">Categoria 3</a></li>
           <li><a href="#">Categoria 3</a></li>
-          
+
         </ul>
         <!-- Departamento 3 - Categoria 2 -->
         <ul class="lista-categorias">
@@ -251,7 +255,7 @@
           <li><a href="#">Categoria 4</a></li>
           <li><a href="#">Categoria 4</a></li>
           <li><a href="#">Categoria 4</a></li>
-          
+
         </ul>
         <!-- Departamento 4 - Categoria 2 -->
         <ul class="lista-categorias">
@@ -289,7 +293,7 @@
           <li><a href="#">Categoria 5</a></li>
           <li><a href="#">Categoria 5</a></li>
           <li><a href="#">Categoria 5</a></li>
-          <li><a href="#">Categoria 5</a></li>          
+          <li><a href="#">Categoria 5</a></li>
         </ul>
         <!-- Departamento 5 - Categoria 2 -->
         <ul class="lista-categorias">
@@ -300,7 +304,7 @@
           <li><a href="#">Categoria 5</a></li>
           <li><a href="#">Categoria 5</a></li>
           <li><a href="#">Categoria 5</a></li>
-          <li><a href="#">Categoria 5</a></li>  
+          <li><a href="#">Categoria 5</a></li>
         </ul>
         <!-- Departamento 5 - Categoria 3 -->
         <ul class="lista-categorias">
@@ -311,7 +315,7 @@
           <li><a href="#">Categoria 5</a></li>
           <li><a href="#">Categoria 5</a></li>
           <li><a href="#">Categoria 5</a></li>
-          <li><a href="#">Categoria 5</a></li>  
+          <li><a href="#">Categoria 5</a></li>
         </ul>
       </div>
     </div>
@@ -441,7 +445,7 @@
           <li><a href="#">Categoria 9</a></li>
           <li><a href="#">Categoria 9</a></li>
           <li><a href="#">Categoria 9</a></li>
-          <li><a href="#">Categoria 9</a></li>         
+          <li><a href="#">Categoria 9</a></li>
         </ul>
         <!-- Departamento 9 - Categoria 2 -->
         <ul class="lista-categorias">
@@ -452,7 +456,7 @@
           <li><a href="#">Categoria 9</a></li>
           <li><a href="#">Categoria 9</a></li>
           <li><a href="#">Categoria 9</a></li>
-          <li><a href="#">Categoria 9</a></li>   
+          <li><a href="#">Categoria 9</a></li>
         </ul>
         <!-- Departamento 9 - Categoria 3 -->
         <ul class="lista-categorias">
@@ -463,7 +467,7 @@
           <li><a href="#">Categoria 9</a></li>
           <li><a href="#">Categoria 9</a></li>
           <li><a href="#">Categoria 9</a></li>
-          <li><a href="#">Categoria 9</a></li>   
+          <li><a href="#">Categoria 9</a></li>
         </ul>
       </div>
     </div>
@@ -479,7 +483,7 @@
           <li><a href="#">Categoria 10</a></li>
           <li><a href="#">Categoria 10</a></li>
           <li><a href="#">Categoria 10</a></li>
-          <li><a href="#">Categoria 10</a></li>          
+          <li><a href="#">Categoria 10</a></li>
         </ul>
         <!-- Departamento 10 - Categoria 2 -->
         <ul class="lista-categorias">
@@ -490,7 +494,7 @@
           <li><a href="#">Categoria 10</a></li>
           <li><a href="#">Categoria 10</a></li>
           <li><a href="#">Categoria 10</a></li>
-          <li><a href="#">Categoria 10</a></li>   
+          <li><a href="#">Categoria 10</a></li>
         </ul>
         <!-- Departamento 10 - Categoria 3 -->
         <ul class="lista-categorias">
@@ -501,7 +505,7 @@
           <li><a href="#">Categoria 10</a></li>
           <li><a href="#">Categoria 10</a></li>
           <li><a href="#">Categoria 10</a></li>
-          <li><a href="#">Categoria 10</a></li>   
+          <li><a href="#">Categoria 10</a></li>
         </ul>
       </div>
     </div>
@@ -512,6 +516,7 @@
     </div>
   </section>
 
+  <!-- Banner -->
   <section class="banner">
     <div class="banner__cadeira">
       <img src="./Imagens/banner-cadeira.png" alt="Foto da cadeira no banner principal">
@@ -522,11 +527,164 @@
       <p>Itens selecionados com até <br>
         <span>50%Off</span>
       </p>
-
     </div>
   </section>
 
-  <script src="./JS/script.js"></script>
+  <section class="swiper-secao">
+    <!-- Additional required wrapper -->
+    <div class="container-titulo">
+      <h2>Lançamentos</h2>
+      <span>Ver mais</span>
+    </div>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="container-imagem">
+            <span>NOVO</span>
+            <img src="./Imagens/foto-carrossel.png" alt="foto do produto">
+          </div>
+          <div class="card-conteudo">
+            <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit.</h3>
+            <div class="container__valores">
+              <div class="valores">
+                <span class="valor-antigo">R$ 100,00</span>
+                <span class="valor-atual">R$ 79,90</span>
+              </div>
+              <span class="desconto">10% OFF</span>
+            </div>
+            <p>Ou em até
+              <span> 10x de R$ 7,90</span>
+            </p>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="container-imagem">
+            <span>NOVO</span>
+            <img src="./Imagens/foto-carrossel.png" alt="foto do produto">
+          </div>
+          <div class="card-conteudo">
+            <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit.</h3>
+            <div class="container__valores">
+              <div class="valores">
+                <span class="valor-antigo">R$ 100,00</span>
+                <span class="valor-atual">R$ 79,90</span>
+              </div>
+              <span class="desconto">10% OFF</span>
+            </div>
+            <p>Ou em até
+              <span> 10x de R$ 7,90</span>
+            </p>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="container-imagem">
+            <span>NOVO</span>
+            <img src="./Imagens/foto-carrossel.png" alt="foto do produto">
+          </div>
+          <div class="card-conteudo">
+            <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit.</h3>
+            <div class="container__valores">
+              <div class="valores">
+                <span class="valor-antigo">R$ 100,00</span>
+                <span class="valor-atual">R$ 79,90</span>
+              </div>
+              <span class="desconto">10% OFF</span>
+            </div>
+            <p>Ou em até
+              <span> 10x de R$ 7,90</span>
+            </p>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="container-imagem">
+            <span>NOVO</span>
+            <img src="./Imagens/foto-carrossel.png" alt="foto do produto">
+          </div>
+          <div class="card-conteudo">
+            <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit.</h3>
+            <div class="container__valores">
+              <div class="valores">
+                <span class="valor-antigo">R$ 100,00</span>
+                <span class="valor-atual">R$ 79,90</span>
+              </div>
+              <span class="desconto">10% OFF</span>
+            </div>
+            <p>Ou em até
+              <span> 10x de R$ 7,90</span>
+            </p>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="container-imagem">
+            <span>NOVO</span>
+            <img src="./Imagens/foto-carrossel.png" alt="foto do produto">
+          </div>
+          <div class="card-conteudo">
+            <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit.</h3>
+            <div class="container__valores">
+              <div class="valores">
+                <span class="valor-antigo">R$ 100,00</span>
+                <span class="valor-atual">R$ 79,90</span>
+              </div>
+              <span class="desconto">10% OFF</span>
+            </div>
+            <p>Ou em até
+              <span> 10x de R$ 7,90</span>
+            </p>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="container-imagem">
+            <span>NOVO</span>
+            <img src="./Imagens/foto-carrossel.png" alt="foto do produto">
+          </div>
+          <div class="card-conteudo">
+            <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit.</h3>
+            <div class="container__valores">
+              <div class="valores">
+                <span class="valor-antigo">R$ 100,00</span>
+                <span class="valor-atual">R$ 79,90</span>
+              </div>
+              <span class="desconto">10% OFF</span>
+            </div>
+            <p>Ou em até
+              <span> 10x de R$ 7,90</span>
+            </p>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+       <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev">
+      <img src="./Imagens/seta-esquerda.png" alt="seta-esquerda ">
+    </div>
+    <div class="swiper-button-next">
+      <img src="./Imagens/seta-direita.png" alt="seta-direita ">
+    </div>
+
+    </div>   
+
+  </section>
+
+  <script type="module" src="./JS/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>

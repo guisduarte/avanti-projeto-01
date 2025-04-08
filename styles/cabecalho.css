@@ -85,6 +85,7 @@
 .container__departamentos {
   display: flex;
   gap: 45px;
+  
 }
 .container__departamentos a {
   text-decoration: none;

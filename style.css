@@ -1,4 +1,5 @@
 @import url(./styles/global.css);
 @import url(./styles/cabecalho.css);
 @import url(./styles/banner.css);
-@import url(./styles/categorias.css);
+@import url(./styles/departamentos-categorias.css);
+@import url(./styles/swiper.css);

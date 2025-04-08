@@ -1,0 +1,87 @@
+<section class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="container-titulo">
+        <h2>Lançamentos</h2>
+        <span>Ver mais</span>
+      </div>   
+      <div class="swiper-wrapper">             
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="./Imagens/foto-carrossel.png" alt="foto do produto">
+          <div class="card-conteudo">
+            <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit.</h3>
+            <span>R$ 100,00</span>
+            <span>R$ 79,90</span>
+            <span>10% OFF</span>
+            <p>Ou em até
+              <span> 10x de R$ 7,90</span>
+            </p>
+            <button>Comprar</button>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./Imagens/foto-carrossel.png" alt="foto do produto">
+          <div class="card-conteudo">
+            <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit.</h3>
+            <span>R$ 100,00</span>
+            <span>R$ 79,90</span>
+            <span>10% OFF</span>
+            <p>Ou em até
+              <span> 10x de R$ 7,90</span>
+            </p>
+            <button>Comprar</button>
+          </div>
+        </div>
+        
+        <div class="swiper-slide">
+          <img src="./Imagens/foto-carrossel.png" alt="foto do produto">
+          <div class="card-conteudo">
+            <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit.</h3>
+            <span>R$ 100,00</span>
+            <span>R$ 79,90</span>
+            <span>10% OFF</span>
+            <p>Ou em até
+              <span> 10x de R$ 7,90</span>
+            </p>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./Imagens/foto-carrossel.png" alt="foto do produto">
+          <div class="card-conteudo">
+            <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit.</h3>
+            <span>R$ 100,00</span>
+            <span>R$ 79,90</span>
+            <span>10% OFF</span>
+            <p>Ou em até
+              <span> 10x de R$ 7,90</span>
+            </p>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./Imagens/foto-carrossel.png" alt="foto do produto">
+          <div class="card-conteudo">
+            <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit.</h3>
+            <span>R$ 100,00</span>
+            <span>R$ 79,90</span>
+            <span>10% OFF</span>
+            <p>Ou em até
+              <span> 10x de R$ 7,90</span>
+            </p>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+      </div>
+      
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </section>
