@@ -1,7 +1,8 @@
-.swiper-secao {
+.container-swiper {
   max-width: 1288.4px;
-  height: 100vh;
+  height: max-content;
   margin: 0 auto;
+  margin-bottom: 96px;
 }
 
 .swiper {
