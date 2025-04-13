@@ -1,0 +1,99 @@
+.container__contato-newsletter {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-contato {
+  width: 100%;
+  min-height: 660px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../Imagens/imagem-fundo-contato.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contato-texto {
+  width: 100%;
+  height: 132px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--azul-principal);
+  color: var(--branco);
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.container-newsletter {
+  width: 100%;
+  height: 100%;
+  margin-top: 64px;
+}
+.container-newsletter h2 {
+  margin-bottom: 24px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.container-newsletter h2 span {
+  color: var(--azul-principal);
+}
+
+.container-newsletter__form {
+  width: 1260px;
+  height: 176px;
+  margin: 0 auto;
+  background-color: #dedede;
+  border-radius: 8px;
+  padding: 64px 115px;
+}
+
+.newsletter__form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.newsletter__form input:not([type='checkbox']) {
+  width: 280px;
+  height: 48px;
+  border-radius: 8px;
+  padding-left: 24px;
+}
+
+.newsletter__form button {
+  width: 121px;
+  height: 48px;
+  padding: 14px 24px;
+  background-color: var(--azul-principal);
+  color: var(--branco);
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-checkbox label {
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--cinza-texto);
+}
+
+.container-checkbox label span {
+  text-decoration: underline;
+}
