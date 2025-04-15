@@ -1,0 +1,72 @@
+.rodape {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+  padding-bottom: 23px;
+  align-items: center;
+}
+
+.container__rodape {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  background-color: #f5f5f5;
+  align-items: center;
+}
+
+.container__rodape-informacoes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 64px 394px 0 396px;
+}
+
+.rodape__sociais {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: start;
+  gap: 40px;
+}
+
+.rodape__sociais img:first-child {
+  width: 100%;
+  margin-right: 142px;
+}
+
+.rodape p {
+  margin: 0 423px;
+}
+
+.rodape__informacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.rodape__informacoes h4,
+.rodape__informacoes h5 span {
+  font-weight: 700;
+}
+
+.rodape-cartoes {
+  display: flex;
+  gap: 34px;
+}
+
+.rodape p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.container__logo-empresas {
+  display: flex;
+  gap: 24px;
+}
+
+.container__logo-empresas img:nth-child(2) {
+  margin-right: 24px;
+}
