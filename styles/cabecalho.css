@@ -121,7 +121,7 @@
   display: none;
 }
 
-/* Remove o botão de limpar (x) e o de cancelar nos inputs tipo search */
+/* Remove o botão de limpar (x) e o de cancelar nos inputs tipo search  */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-results-button,
