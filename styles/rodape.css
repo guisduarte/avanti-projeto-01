@@ -1,0 +1,158 @@
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  padding-bottom: 0.958125rem;
+}
+
+.container__rodape,
+.container__rodape-sociais-logo,
+.rodape-sociais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__rodape-info-mobile {
+  width: 100vw;
+}
+
+.accordion-collapse h6 a {
+  text-decoration: none;
+  color: var(--cinza-texto);
+}
+
+.container__rodape {
+  flex-direction: column;
+  background-color: #f5f5f5;
+  gap: 3rem;
+}
+
+.container__rodape-sociais-logo {
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+.rodape-sociais {
+  gap: 2.5rem;
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23005CFF' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+}
+
+.container__rodape-pagamentos,
+.container__rodape-pagamentos span {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.125rem;
+}
+
+.container__rodape-pagamentos {
+  margin: 0 2rem;
+  min-width: 18.025rem;
+}
+.container__rodape-pagamentos span {
+  margin: 0 2.035rem;
+}
+
+.container__rodape-texto,
+.container__rodape-empresas {
+  margin: 0 1rem;
+}
+
+.container__rodape-texto {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  text-align: center;
+}
+
+.container__rodape-empresas {
+  display: flex;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+  min-width: 18.485rem;
+  min-height: 2rem;
+}
+
+.container__rodape-empresas img:nth-child(2) {
+  margin-right: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .container__rodape-info-desktop {
+    display: none;
+  }
+}
+
+/* Telas maiores */
+@media (min-width: 1024px) {
+  .rodape {
+    padding-bottom: 2.5rem;
+  }
+  .container__rodape-info-mobile {
+    display: none;
+  }
+
+  .container__rodape {
+    flex-direction: row;
+    gap: 8.875rem;
+  }
+
+  .container__rodape-sociais-logo {
+    width: 12.125rem;
+    height: 5.8125rem;
+    margin-left: 2rem;
+  }
+  .container__rodape-info-desktop {
+    display: flex;
+    justify-content: center;
+    gap: 6.875rem;
+  }
+
+  .container-institucional,
+  .container-central-ajuda,
+  .container-atendimento {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-institucional h5 a,
+  .container-central-ajuda h5 a {
+    text-decoration: none;
+    color: #303030;
+  }
+
+  .container-institucional h4,
+  .container-central-ajuda h4,
+  .container-atendimento h4 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 0.6875rem;
+  }
+  .container-institucional h5,
+  .container-central-ajuda h5,
+  .container-atendimento h5 {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+  }
+
+  .container-atendimento h5 span {
+    font-weight: 700;
+  }
+
+  .atendimento-horario,
+  .atendimento-horario span {
+    font-size: 0.75rem;
+  }  
+
+  .container__rodape-texto {
+    max-width: 67.125rem;
+    max-height: 3.6875rem;
+  }
+}

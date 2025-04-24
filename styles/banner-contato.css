@@ -1,0 +1,52 @@
+.container__banner-contato {
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 3.5rem;
+}
+
+.banner__contato-imagem {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../Imagens/banner-contato-pequeno.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.banner__contato-texto {
+  width:100%;
+  min-height: 4.6875rem;
+  background-color: var(--azul-principal);
+  color: var(--branco);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__contato-texto h2 {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 140%;
+}
+
+@media (min-width: 1024px) {
+  .container__banner-contato {
+    margin-bottom: 4rem;
+  }
+
+  .banner__contato-imagem {
+    background-image: url('../Imagens/banner-contato-grande.png');
+  }
+
+  .banner__contato-texto {
+    min-height: 132px;   
+  }
+  
+  .banner__contato-texto h2 {
+    font-weight: 400;
+    font-size: 1.875rem;
+  }
+}

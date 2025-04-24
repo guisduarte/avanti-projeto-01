@@ -1,0 +1,110 @@
+.container__news-letter {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+.container__news-letter h2 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 100%;
+  text-align: center;
+}
+
+.container__news-letter h2 span {
+  color: var(--azul-principal);
+}
+
+.news-letter__form {
+  min-height: 17.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 0.875rem;
+  margin-right: 1.125rem;
+  padding: 0 1rem;
+  border-radius: 0.5rem;
+  background-color: #f5f5f5;
+}
+.news-letter__form > input:nth-child(1) {
+  margin-top: 2.375rem;
+}
+.news-letter__form > input {
+  min-width: 20.375rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+.news-letter__form > input::placeholder {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 100%;
+  padding-left: 1.528125rem;
+}
+
+.container__checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.container__checkbox label {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 100%;
+  color: #656565;
+}
+.container__checkbox label span {
+  text-decoration: underline;
+}
+
+.news-letter__form button {
+  height: 3rem;
+  background-color: var(--azul-principal);
+  color: var(--branco);
+  border: none;
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .news-letter__form > input,
+  .news-letter__form > button {
+    width: 36rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .news-letter__form {
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--cinza-fundo);
+  }
+
+  .container__news-letter h2 {
+    font-size: 1.25rem;
+  }
+
+  .news-letter__form > input:nth-child(1) {
+    margin-top: initial;
+  }
+
+  .news-letter__form > input {
+    width: 17.5rem;
+  }
+
+  .news-letter__form button {
+    width: 7.5625rem;
+    padding: 0.875rem 1.5rem;
+  }
+}
+
+@media (min-width: 1260px) {
+  .news-letter__form {
+    max-width: 78.75rem; 
+    margin: 0 auto;
+  }
+
+}

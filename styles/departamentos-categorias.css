@@ -1,0 +1,181 @@
+/* Departamentos e Categorias*/
+.container__departamentos-categorias {
+  display: none;
+}
+
+.container__departamentos-categorias.ativo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 10.9375rem;
+  width: 100vw;
+  background-color: var(--branco);
+  z-index: 100;
+}
+
+.container__lista-departamentos ul,
+.container__lista-categorias ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Lista de Departamentos */
+.container__lista-departamentos {
+  min-width: 240px;
+  background-color: #f5f5f5;
+}
+
+.container__lista-departamentos ul {
+  margin-left: 1rem;
+  margin-top: 1.25rem;
+}
+.container__lista-departamentos ul li span {
+  margin-right: 1.875rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  cursor: pointer;
+  width: 13rem;
+}
+
+.lista-departamentos.ativo > span {
+  font-weight: 700;
+  color: var(--azul-principal);
+}
+
+/*Container Lista de Categorias  */
+.container__lista-categorias {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+  margin-left: 1rem;
+  margin-top: 1.1875rem;
+  font-size: 0.875rem;
+}
+
+/* Titulo Departamento Quando Selecionado */
+.container__lista-categorias h2 {
+  font-weight: 700;
+  font-size: 1rem;
+  display: none;
+}
+
+.container__lista-categorias h2.ativo {
+  display: block;
+}
+
+/* Container colunas Categorias */
+.colunas-categorias {
+  display: flex;
+  gap: 1.875rem;
+}
+
+/*lista-categorias */
+.lista-1,
+.lista-2,
+.lista-3,
+.lista-4,
+.lista-5,
+.lista-6,
+.lista-7,
+.lista-8,
+.lista-9,
+.lista-10 {
+  display: none;
+}
+
+/*lista de categorias ativo */
+.lista-1.ativo,
+.lista-2.ativo,
+.lista-3.ativo,
+.lista-4.ativo,
+.lista-5.ativo,
+.lista-6.ativo,
+.lista-7.ativo,
+.lista-8.ativo,
+.lista-9.ativo,
+.lista-10.ativo {
+  display: flex;
+}
+
+.lista-categorias {
+  min-width: 20vw;
+}
+
+/* Titulo Categorias */
+.lista-categorias h3 {
+  color: var(--azul-principal);
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.lista-categorias li a {
+  text-decoration: none;
+  color: var(--cinza-texto);
+}
+
+/* Container imagem novo produto */
+.produtos-novos {
+  width: 14.75rem;
+  height: 18.625rem;
+  border-radius: 0.625rem;
+  margin-top: 1.25rem;
+  margin-right: 1.5rem;
+  margin-bottom: 0.6875rem;
+  margin-left: 1rem;
+  background-image: url('../Imagens/imagem-caneca2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.produtos-novos p,
+.produtos-novos button {
+  position: relative;
+  margin-left: 1.6875rem;
+}
+
+.produtos-novos p {
+  margin-top: 43.89px;
+  color: var(--branco);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height:  1.6875rem;
+}
+
+.produtos-novos button {
+  margin-top: 1.875rem;
+  padding: 0.8rem;
+  background: transparent;
+  border: 1px solid var(--branco);
+  border-radius: 10px;
+  color: var(--branco);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Telas Menores */
+
+@media (min-width: 1024px) {
+  .container__departamentos-categorias.ativo {
+    flex-wrap: initial;
+    padding-left: 8.8125rem;
+    padding-right: 9.5625rem;
+  }
+
+  .lista-departamentos {
+    width: 100%;
+  }
+
+  .container__lista-departamentos ul li span {
+    margin-right: 6.1675rem;
+  }
+
+  .produtos-novos {
+    margin-left: initial;
+  }
+
+}

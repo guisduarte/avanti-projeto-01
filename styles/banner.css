@@ -1,0 +1,128 @@
+.banner__container {
+  width: 100vw;
+  background-color: #e7e7ea;
+  display: flex;
+  align-items: center;
+}
+
+.banner__imagem {
+  background-image: url('../Imagens/banner-cadeira.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  min-width: 225px;
+  min-height: 306px;
+}
+
+.banner__texto {
+  margin: 4.4375rem 2.375rem 4.4375rem 0;
+  font-family: 'Nunito', sans-serif;
+  position: relative;
+  right: 1rem;
+}
+
+.banner__texto > h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.banner__texto h1 > span {
+  font-weight: 300;
+}
+
+.banner__texto p,
+.banner__texto > span {
+  color: var(--azul-principal);
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.banner__texto span {
+  display: inline-block;
+  font-size: 2rem;
+}
+
+/* Telas Maiores */
+@media (min-width: 425px) {
+  .banner__container {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 640px) {
+  .banner__container {
+    justify-content: flex-start;
+    gap: 5rem;
+  }
+
+  .banner__texto > h1 {
+    font-size: 3rem;
+  }
+
+  .banner__texto p {
+    font-size: 1rem;
+  }
+
+  .banner__texto span {
+    display: inline-block;
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner__container {
+    justify-content: center;
+  }
+
+  .banner__imagem {
+    width: 42.8125rem;
+    height: 31.875rem;
+    background-repeat: initial;
+    background-position: initial;
+  }
+
+  .banner__texto h1 {
+    font-size: 3.125rem;
+  }
+
+  .banner__texto p {
+    font-size: 1.2rem;
+  }
+
+  .banner__texto span {
+    font-size: 2rem;
+  }
+
+  .banner__texto-quebra-de-linha {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .banner__container {
+    justify-content: center;
+  }
+
+  .banner__imagem {
+    background-position: initial;
+  }
+
+  .banner__texto h1 {
+    font-size: 6.25rem;
+  }
+
+  .banner__texto p {
+    font-size: 1.5625rem;
+  }
+
+  .banner__texto span {
+    font-size: 3.75rem;
+  }
+
+}

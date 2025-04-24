@@ -1,0 +1,177 @@
+.container__informacoes-avanti {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.container__imagem-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.container-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+  margin: 6.59375rem 1.5rem;
+}
+.container-texto h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+.container-texto p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 140%;
+}
+
+.texto-pin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.875rem;
+  margin-top: 1.3125rem;
+}
+
+.texto-pin img {
+  padding: 0.5rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 50%;
+  background-color: var(--azul-principal);
+}
+
+.container__imagem-texto-meio {
+  background-color: var(--cinza-fundo);
+  padding-bottom: 1.75rem;
+}
+
+.container__texto-meio h2 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container__texto-meio p {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 140%;
+}
+
+.container__imagem-caneca {
+  width: 100%;
+  height: 24.375rem;
+  background-image: url('../Imagens/imagem-caneca.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--cinza-fundo);
+}
+.container__imagem-caneca-meio {
+  width: 100%;
+  height: 24.375rem;
+  background-image: url('../Imagens/imagem-caneca2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--cinza-fundo);
+}
+
+/* Telas Maiores */
+@media (min-width: 1024px) {
+  .container__imagem-texto {
+    flex-direction: row;
+    gap: 2.34375rem;
+    padding: 0 2.5rem;
+  }
+
+  .container-texto {
+    width: 30.4375rem;
+    height: 33.5rem;
+  }
+
+  .container__imagem-caneca {
+    width: 40.75rem;
+    height: 46.6875rem;
+  }
+
+  .container-texto h2 {
+    font-size: 1.875rem;
+  }
+
+  .container-texto p {
+    font-size: 1.25rem;
+  }
+
+  /* Container do Meio */
+  .container__imagem-texto-meio {
+    padding-top: 2.5625rem;
+    padding-bottom: 3.11625rem;
+    
+  }
+
+  .container__texto-meio {
+    width: 29.75rem;
+    height: 35.4375rem;
+  }
+
+  .container__imagem-caneca-meio {
+    order: 2;
+    width: 40.75rem;
+    height: 45.50875rem;
+  }
+
+  .container__texto-meio h2 {
+    color: #4f4f4f;
+  }
+
+  .container__texto-meio p {
+    color: #4f4f4f;
+    font-weight: 400;
+  }
+
+  .texto-pin  {
+    gap: 1.25rem;
+  }
+  .texto-pin img {
+    width: max-content;
+    height: max-content;
+  }
+
+  .texto-pin img {
+    width: max-content;
+    height: max-content;
+  }
+}
+
+@media (min-width:1024px) and (max-width: 1108px) {
+  .container__imagem-texto:nth-child(3) {
+    padding-bottom: 4rem;
+  }
+}
+
+@media (min-width: 1240px) {
+  .container__imagem-texto {
+    padding: 0 5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container__imagem-texto {
+    padding: 0 10rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container__imagem-texto {
+    padding: 0 23.21875rem;
+  }
+}
