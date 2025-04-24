@@ -1,109 +1,111 @@
-Avanti - E-commerce Website
+#Avanti - E-commerce Website
 
-Projeto de um website e-commerce completo para a marca Avanti, com layout responsivo e funcionalidades modernas.
+##Projeto de um website e-commerce completo para a marca Avanti, com layout responsivo e funcionalidades modernas.
 
-✨ Funcionalidades
-Header completo com:
+##✨ Funcionalidades
 
-Barra de desconto
+##Header completo com:
 
-Logo
+###Barra de desconto
 
-Área do cliente
+###Logo
 
-Carrinho de compras
+###Área do cliente
 
-Barra de pesquisa
+###Carrinho de compras
 
-Menu de navegação por departamentos
+###Barra de pesquisa
 
-Seção de departamentos com:
+###Menu de navegação por departamentos
 
-Lista expansível de departamentos
+##Seção de departamentos com:
 
-Categorias organizadas
+###Lista expansível de departamentos
 
-Destaque para novos produtos
+###Categorias organizadas
 
-Banners promocionais com:
+###Destaque para novos produtos
 
-Destaque de ofertas
+##Banners promocionais com:
 
-Layout atrativo
+###Destaque de ofertas
 
-Carrosséis de produtos usando Swiper JS:
+###Layout atrativo
 
-Cards de produtos com:
+##Carrosséis de produtos usando Swiper JS:
 
-Imagem
+##Cards de produtos com:
 
-Título
+###Imagem
 
-Preço original e com desconto
+###Título
 
-Opções de parcelamento
+###Preço original e com desconto
 
-Botão de compra
+###Opções de parcelamento
 
-Seções informativas sobre a marca:
+###Botão de compra
 
-Textos explicativos
+##Seções informativas sobre a marca:
 
-Destaques com ícones
+###Textos explicativos
 
-Layout alternado
+###Destaques com ícones
 
-Newsletter:
+###Layout alternado
 
-Formulário de cadastro
+##Newsletter:
 
-Termos de privacidade
+###Formulário de cadastro
 
-Footer completo com:
+###Termos de privacidade
 
-Redes sociais
+##Footer completo com:
 
-Links institucionais
+###Redes sociais
 
-Central de ajuda
+###Links institucionais
 
-Informações de contato
+###Central de ajuda
 
-Meios de pagamento
+###Informações de contato
 
-Selos de segurança
+###Meios de pagamento
 
-🛠 Tecnologias Utilizadas
-HTML5 semântico
+###Selos de segurança
 
-CSS moderno com:
+##🛠 Tecnologias Utilizadas
 
-Reset CSS
+###HTML5 semântico
 
-Variáveis
+##CSS moderno com:
 
-Flexbox e Grid
+###Reset CSS
 
-Media queries para responsividade
+###Variáveis
 
-JavaScript para interatividade
+###Flexbox e Grid
 
-Bootstrap 5 (apenas para o accordion no mobile)
+###Media queries para responsividade
 
-Swiper JS para os carrosséis de produtos
+###JavaScript para interatividade
 
-🚀 Como Executar
-Clone o repositório:
+###Bootstrap 5 (apenas para o accordion no mobile)
+
+###Swiper JS para os carrosséis de produtos
+
+🚀 ##Como Executar
+##Clone o repositório:
 
 bash
 git clone https://github.com/seu-usuario/avanti-ecommerce.git
 Abra o arquivo index.html no seu navegador favorito.
 
-🌟 Destaques do Código
-Design Responsivo: Layout que se adapta a diferentes tamanhos de tela
+🌟## Destaques do Código
+###Design Responsivo: Layout que se adapta a diferentes tamanhos de tela
 
-Performance: Uso eficiente de recursos externos (Google Fonts, CDNs)
+###Performance: Uso eficiente de recursos externos (Google Fonts, CDNs)
 
-Acessibilidade: HTML semântico e atributos alt para imagens
+###Acessibilidade: HTML semântico e atributos alt para imagens
 
-Organização: CSS bem estruturado com metodologia BEM
+###Organização: CSS bem estruturado com metodologia BEM
