@@ -28,7 +28,7 @@
 
 ## Banners promocionais com:
 
-###Destaque de ofertas
+### Destaque de ofertas
 
 ### Layout atrativo
 
@@ -101,11 +101,11 @@ bash
 git clone https://github.com/seu-usuario/avanti-ecommerce.git
 Abra o arquivo index.html no seu navegador favorito.
 
-🌟## Destaques do Código
-### Design Responsivo: Layout que se adapta a diferentes tamanhos de tela
+🌟 **Destaques do Código**
+**Design Responsivo: Layout que se adapta a diferentes tamanhos de tela** 
 
-### Performance: Uso eficiente de recursos externos (Google Fonts, CDNs)
+**Performance: Uso eficiente de recursos externos (Google Fonts, CDNs)** 
 
-### Acessibilidade: HTML semântico e atributos alt para imagens
+**Acessibilidade: HTML semântico e atributos alt para imagens** 
 
-### Organização: CSS bem estruturado com metodologia BEM
+**Organização: CSS bem estruturado com metodologia BEM** 
